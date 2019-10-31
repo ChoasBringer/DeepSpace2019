@@ -199,6 +199,8 @@ public class Elevator extends SubsystemFramework {
             newState = ElevatorState.RocketLowPosition;
         }else if(CargoStowPosition()){
             newState = ElevatorState.CargoStowPosition;
+        }else if(HatchStowPosition()){
+            newState = ElevatorState.HatchStowPosition;
         }else if(StartPosition()){
             newState = ElevatorState.StartPosition;
         }

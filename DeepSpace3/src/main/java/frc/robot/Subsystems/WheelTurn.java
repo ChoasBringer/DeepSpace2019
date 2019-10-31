@@ -70,9 +70,9 @@ public class WheelTurn extends SubsystemFramework{
 
 
 		if(Hardware.driverPad.getRawButton(5)){
-			wheelTurnMotor.set(0.7);
+			wheelTurnMotor.set(0.9);
 		}else if(Hardware.driverPad.getRawButton(6)){
-			wheelTurnMotor.set(-0.7);
+			wheelTurnMotor.set(-0.9);
 		}else{
 			wheelTurnMotor.set(0);
 		} 

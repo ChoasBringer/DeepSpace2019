@@ -138,9 +138,9 @@ public class Drivetrain extends SubsystemFramework {
 				leftMasterMotor.configNominalOutputForward(0, 10);
 				rightMasterMotor.configNominalOutputReverse(0, 10);
 				leftMasterMotor.configNominalOutputReverse(0, 10);
-				rightMasterMotor.configPeakOutputForward(1, 10);
-				leftMasterMotor.configPeakOutputForward(1, 10);
-				rightMasterMotor.configPeakOutputReverse(-1, 10);
-				leftMasterMotor.configPeakOutputReverse(-1, 10);
+				rightMasterMotor.configPeakOutputForward(0.9, 10);
+				leftMasterMotor.configPeakOutputForward(0.9, 10);
+				rightMasterMotor.configPeakOutputReverse(-0.9, 10);
+				leftMasterMotor.configPeakOutputReverse(-0.9, 10);
     }
 }

@@ -41,7 +41,7 @@ public class ClawWheels extends SubsystemFramework {
 break;
         case Intake:
         SmartDashboard.putString("Wheel", "Intake"); 
-            clawWheelsMotor.set(-1);
+            clawWheelsMotor.set(-0.6);
         
             if(Hardware.driverPad.getRawAxis(Constants.CLAW_INTAKE) < 0.2){
             newState = ClawWheelsState.Off;

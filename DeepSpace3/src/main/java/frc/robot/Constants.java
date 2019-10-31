@@ -2,7 +2,7 @@ package frc.robot;
 
 public class Constants {
     //Drivetrain CAN Values
-    public static final int RIGHT_MASTER_MOTOR_CAN = 3;
+    public static final int RIGHT_MASTER_MOTOR_CAN = 20;
 	public static final int RIGHT_SLAVE_MOTOR_CAN = 4;
 	public static final int LEFT_MASTER_MOTOR_CAN = 1;
     public static final int LEFT_SLAVE_MOTOR_CAN = 2;
@@ -55,8 +55,8 @@ public class Constants {
         public static final int INTAKE = 5;
         
         //ClawWheels Buttons
-        public static final int CLAW_SPIT = 3;
-        public static final int CLAW_INTAKE = 2;
+        public static final int CLAW_SPIT = 2;
+        public static final int CLAW_INTAKE = 3;
 
         //ClawTurn Buttons
         public static final int OPEN = 6;
